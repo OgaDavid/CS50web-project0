@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/advanced.css" />
+  </head>
+  <body>
+    <header class="navigation__container" role="navigation">
+      <div>
+        <a href="google.com">
+          <img class="google-logo" src="images//google.svg" alt="google logo" />
+        </a>
+      </div>
+      <ul class="navigation__list">
+        <li><a href="/index.html">Search</a></li>
+        <li><a href="/image.html">Images</a></li>
+        <li>
+          <img
+            class="navigation__profile__img"
+            src="images/profile.png"
+            alt="profile"
+          />
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="heading">
+        <h1>Advanced Search</h1>
+      </div>
+      <div class="form__container">
+        <p class="text_advanced">Find pages with...</p>
+        <form action="https://google.com/search">
+          <div>
+            <div class="advanced__row">
+              <span class="row__left">
+                <label for="as_q">all these words:</label>
+              </span>
+              <span class="row__right">
+                <input name="as_q" type="text" />
+              </span>
+            </div>
+            <div class="advanced__row">
+              <span class="row__left">
+                <label for="as_epq">this exact word or phrase:</label>
+              </span>
+              <span class="row__right">
+                <input name="as_epq" type="text" />
+              </span>
+            </div>
+            <div class="advanced__row">
+              <span class="row__left">
+                <label for="as_oq">any of these words:</label>
+              </span>
+              <span class="row__right">
+                <input name="as_oq" type="text" />
+              </span>
+            </div>
+            <div class="advanced__row">
+              <span class="row__left">
+                <label for="as_eq">none of these words:</label>
+              </span>
+              <span class="row__right">
+                <input name="as_eq" type="text" />
+              </span>
+            </div>
+          </div>
+          <div>
+            <input type="submit" value="Advanced Search" class="advanced__btn">
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__container">
+        <div class="footer-top">
+          <p id="country"></p>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js" />
+  </body>
+</html>

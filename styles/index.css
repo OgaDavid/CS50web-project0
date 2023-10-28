@@ -15,10 +15,12 @@ body {
 .navigation__container {
     padding: 6px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation__list {
+    margin-left: auto;
     display: flex;
     align-items: center;
     gap: 15px   ;
