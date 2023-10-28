@@ -55,6 +55,47 @@ body {
     padding: 20px;
 }
 
+.main__search {
+    width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px 0 14px;
+}
+
+.search_icon {
+    color: #9aa0a6;
+    fill: currentColor;
+    padding-right: 13px;
+}
+
+.search__input {
+    border: none;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    margin-bottom: 4px;
+    width: 443px;
+}
+
+.search__right__buttons {
+    display: flex;
+}
+
+.search__right__buttons span {
+    padding: 0 8px;
+}
+
+.search__audio, .search__camera {
+    width: 24px;
+    height: 24px;
+}
+
+.search__input:focus {
+    outline: none;
+}
+
 .main__search__buttons {
     padding-top: 18px;
 }
@@ -79,5 +120,5 @@ body {
 
 .search__button:hover {
     border: 1px solid #dadce0;
-    box-shadow: 0 1px 1px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    box-shadow: 0 1px 1px 0 rgba(189, 195, 198, 0.3), 0 1px 3px 1px rgba(190, 198, 204, 0.15);
 }
