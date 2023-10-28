@@ -144,3 +144,17 @@ body {
     border: 1px solid #dadce0;
     box-shadow: 0 1px 1px 0 rgba(189, 195, 198, 0.3), 0 1px 3px 1px rgba(190, 198, 204, 0.15);
 }
+
+.footer__container {
+    margin-top: auto;
+    background-color: #f2f2f2;
+}
+
+.footer-top {
+    padding: 15px 30px;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} 
